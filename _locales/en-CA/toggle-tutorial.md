@@ -3,7 +3,7 @@
 ## It's Toggle Time! @unplugged
 In this tutorial we will toggle a bunch of LEDs on the screen, and automate it useing the power of functions!
 
-![A toggling micro:bit!](https://raw.githubusercontent.com/mlupo/toggle-tutorial/master/docs/static/toggle.GIF)
+![A toggling micro:bit!](https://raw.githubusercontent.com/mlupo/toggle-tutorial/master/docs/static/toggle2.gif)
 
 ## _
 ### Start with a button
