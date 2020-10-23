@@ -72,7 +72,15 @@ function superToggle (num: number, sleep: number) {
 ## _ 
 ### Let's get functional!
 We are taking  a big leap, and we're going to learn about functions!  
-Start by clicking the **Advanced Label** to expose the ``||functions:functions||`` drawer. Open the ``||functions:functions||`` drawer and click **Make a Function**.
+Start by clicking the **Advanced** label to expose the ``||functions:functions||`` drawer. Open the ``||functions:functions||`` drawer and click **Make a Function**.
 
 In the window that appears, give  your function a good name, and click the **number** button twice. This gives the function 2 arguments that we can fill in later.
+Rename **num2** to **sleep**.
+
+![Editing functions](https://raw.githubusercontent.com/mlupo/toggle-tutorial/master/docs/static/edit_function.png)
+
+## _ 
+### Let's add a loop
+As a result of your last step, your function should have appeared in the workspace.  
+Open the ``||loops:loops||`` drawer, find the ``||loops:repeat 4 times||`` block, and place it inside your function.
 
