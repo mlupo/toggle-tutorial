@@ -82,5 +82,16 @@ Rename **num2** to **sleep**.
 ## _ 
 ### Let's add a loop
 As a result of your last step, your function should have appeared in the workspace.  
-Open the ``||loops:loops||`` drawer, find the ``||loops:repeat 4 times||`` block, and place it inside your function.
+Open the ``||loops:loops||`` drawer, find the ``||loops:repeat 4 times||`` block, and place it inside your function.  
+Drag the **num** bubble from the function, and place it over the number 4 in the ``||loops:repeat||`` block.  
+
+![using arguments](https://raw.githubusercontent.com/mlupo/toggle-tutorial/master/docs/static/use_argument.gif)
+
+```blocks
+function superToggle (num: number, sleep: number) {
+    for (let index = 0; index < num; index++) {
+    	
+    }
+}
+```
 
