@@ -68,3 +68,11 @@ function superToggle (num: number, sleep: number) {
     }
 }
 ```
+
+## _ 
+### Let's get functional!
+We are taking  a big leap, and we're going to learn about functions!  
+Start by clicking the **Advanced Label** to expose the ``||functions:functions||`` drawer. Open the ``||functions:functions||`` drawer and click **Make a Function**.
+
+In the window that appears, give  your function a good name, and click the **number** button twice. This gives the function 2 arguments that we can fill in later.
+
