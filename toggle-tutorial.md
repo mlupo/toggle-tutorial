@@ -89,6 +89,7 @@ Drag the **num** bubble from the function, and place it over the number 4 in the
 
 ```blocks
 function superToggle (num: number, sleep: number) {
+    // @highlight
     for (let index = 0; index < num; index++) {
     	
     }
@@ -104,6 +105,7 @@ This will make it so that when we run our function, our toggle code will be repe
 ```blocks
 function superToggle (num: number, sleep: number) {
     for (let index = 0; index < num; index++) {
+        // @highlight
         led.toggle(randint(0, 4), randint(0, 4))
     }
 }
@@ -114,4 +116,39 @@ function superToggle (num: number, sleep: number) {
 One of the last steps we need to do is add a pause into our loop.  
 Open the ``||basic:basic||`` drawer, find the ``||basic:pause (ms) 100||``, and place it **underneath** the ``||led:toggle||`` block in our function.  
 
-Click and drag the ``||variables:sleep||`` bubble from the function, and place it over the number **100** `` in the ||basic:pause||`` block.
+Click and drag the ``||variables:sleep||`` bubble from the function, and place it over the number **100** `` in the ``||basic:pause||`` block.
+
+```blocks
+function superToggle (num: number, sleep: number) {
+    for (let index = 0; index < num; index++) {
+        led.toggle(randint(0, 4), randint(0, 4))
+        // @highlight
+        basic.pause(sleep)
+    }
+}
+```
+
+## _
+### Now let's use this function!
+To use a function, it needs to be **called**. Back in the functions drawer, there is new ``||functions:call||`` block which includes the name of your new function.   Drag a ``||functions:call||`` block into the ``||input:on button A pressed||`` block leftover from earlier.  
+
+The ``||functions:call||`` block will run your function with the parameters you specify. Based on our function's code, the first number is the number of times the loop will run, and the second number is how long to wait inbetween loops.  
+Enter the numbers **100** and **50**, then press the A button in the micro:bit simulator to see what happens!
+
+```blocks
+// @highlight
+input.onButtonPressed(Button.A, function () {
+    superToggle(100, 50)
+})
+
+function superToggle (num: number, sleep: number) {
+    for (let index = 0; index < num; index++) {
+        led.toggle(randint(0, 4), randint(0, 4))
+        basic.pause(sleep)
+    }
+}
+```
+
+## _ @unplugged
+### WHOA! You did it!!
+You learned how to use a function! That's amazing!!! Even if it still seems really confusing, don't worry! Let the instrutor know that you're done, and we will start on the next project.
