@@ -20,7 +20,7 @@ input.onButtonPressed(Button.A, function () {
 Open the ``||led:Led||`` drawer, and find the ``||led:toggle x 0 y 0||`` block.  
 Snap that block into the ``||input:on button A pressed||`` block in the workspace.  
 
-Press the A button a few times to check your code so far.
+Press the A button on the micro:bit in the simulator a few times to check your code so far.
 
 ```blocks
 input.onButtonPressed(Button.A, function on_button_pressed_a() {
@@ -34,7 +34,7 @@ Next, we will add a bit of randomness to our toggling!
 The Led columns are numbered 0 to 4, from left to right, and the rows are numbered 0 to 4 from the top down. With these numbers we can make random leds appear all over the screen.  
 
 From the ``||math:math||`` drawer, and pull out the ``||math:pick random 0 to 10||`` block.
-Put this block into the **0** beside the letter **x** in the toggle block. In the random block, change the number 10 to the number 4.
+Put this block into the **0** beside the letter **x** in the toggle block. In the ``||math:random||`` block, change the number 10 to the number 4.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -116,7 +116,7 @@ function superToggle (num: number, sleep: number) {
 One of the last steps we need to do is add a pause into our loop.  
 Open the ``||basic:basic||`` drawer, find the ``||basic:pause (ms) 100||``, and place it **underneath** the ``||led:toggle||`` block in our function.  
 
-Click and drag the ``||variables:sleep||`` bubble from the function, and place it over the number **100** `` in the ``||basic:pause||`` block.
+Click and drag the ``||variables:sleep||`` bubble from the function, and place it over the number **100** in the ``||basic:pause||`` block.
 
 ```blocks
 function superToggle (num: number, sleep: number) {
@@ -152,3 +152,7 @@ function superToggle (num: number, sleep: number) {
 ## _ @unplugged
 ### WHOA! You did it!!
 You learned how to use a function! That's amazing!!! Even if it still seems really confusing, don't worry! Let the instrutor know that you're done, and we will start on the next project.
+
+## _ @unplugged
+### Press the Finish Button
+To end this tutorial
