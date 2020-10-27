@@ -136,8 +136,8 @@ The ``||functions:call||`` block will run your function with the parameters you 
 Enter the numbers **100** and **50**, then press the A button in the micro:bit simulator to see what happens!
 
 ```blocks
-// @highlight
 input.onButtonPressed(Button.A, function () {
+    // @highlight
     superToggle(100, 50)
 })
 
@@ -153,6 +153,6 @@ function superToggle (num: number, sleep: number) {
 ### WHOA! You did it!!
 You learned how to use a function! That's amazing!!! Even if it still seems really confusing, don't worry! Let the instrutor know that you're done, and we will start on the next project.
 
-## _ @unplugged
+## _
 ### Press the Finish Button
 To end this tutorial
