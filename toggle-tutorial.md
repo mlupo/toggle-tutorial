@@ -98,7 +98,7 @@ function superToggle (num: number, sleep: number) {
 
 ## _
 ### Move that toggle block
-Next, click and drag the ``||led:toggle||`` block you created in the ``||input:on button A pressed||``, and move it indside the ``||loops:loop||`` within your ``||functions:function||``.  
+Next, click and drag the ``||led:toggle||`` block you created in the ``||input:on button A pressed||``, and move it inside the ``||loops:loop||`` within your ``||functions:function||``.  
 
 This will make it so that when we run our function, our toggle code will be repeated.
 
